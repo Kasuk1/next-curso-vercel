@@ -1,13 +1,12 @@
 import Link from 'next/link';
 import { MainLayout } from '@/components/layouts/MainLayout';
 
-export default function Home() {
+export default function contact() {
   return (
     <MainLayout>
-      <p>This is Home</p>
-      <div>
-        <Link href='/about'>Go to about</Link>
-      </div>
+      <p>This is Contact</p>
+
+      <Link href='/'>Go to Home</Link>
     </MainLayout>
   );
 }
